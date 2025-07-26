@@ -164,7 +164,7 @@ class UIBuilder:
                         callback=self.p2p_studio.on_via_point_clicked,
                         color_scheme='yellow'
                     )
-                    
+
                 with ui.HStack(height=UILayout.BUTTON_HEIGHT_LARGE):
 
                     UIComponentFactory.create_styled_button(
@@ -211,7 +211,7 @@ class UIBuilder:
         """
         # Load the UR10e
         robot_prim_path = "/LIMS_EX"
-        path_to_robot_usd = "/home/jkkim/isaac-sim/LIMS_EX/asset/LIMS_EX_usd/LIMS_EX.usd"
+        path_to_robot_usd = "LIMS_EX/asset/LIMS_EX_usd/LIMS_EX.usd"
 
         # Do not reload assets when hot reloading.  This should only be done while extension is under development.
         # if not is_prim_path_valid(robot_prim_path):

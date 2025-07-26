@@ -17,6 +17,6 @@ LIMS_EX_PRIM_NAME = "LIMS_EX"
 
 CUBOID_PRIM_PATH = "/Scenario/cuboid"
 
-TRAJECTORY_DIR = "/home/jkkim/isaac-sim/LIMS_EX/LIMS_EX_studio_python/trajectory"
+TRAJECTORY_DIR = "LIMS_EX/LIMS_EX_studio_python/trajectory"
 
 LIMS_EX_JOINT_NAMES = ['SY', 'SP', 'EB1', 'EB2', 'WP', 'WR', 'WY', 'LF', 'RF']
